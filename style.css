@@ -89,7 +89,7 @@ a{
     border: none;
 }
 
-.tlacitko-pohoda {
+.tlacitko-pohoda{
     background-color:#8b8b8b;
     color:#ffffff;
     margin-bottom: 10px;
@@ -98,8 +98,8 @@ a{
     border: none;
 }
 
-.cestovka-popis > p,
-.delegati-popis > p {
+.cestovka-popis>p,
+.delegati-popis>p{
     margin-bottom: 30px;
 }
 
@@ -134,8 +134,8 @@ a{
     .delegati-popis>p{
         padding-bottom: 30px;
     }
-    .cestovka > p,
-    .delegati > p{
+    .cestovka>p,
+    .delegati>p{
         margin-bottom: 30px;
     }
     .happy img{
