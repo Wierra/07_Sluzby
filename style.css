@@ -119,44 +119,43 @@ a{
     margin-bottom: 60px;
 }
 
-
 /* tablet - 640px a víc */
 @media screen and (min-width: 640px) {
     section{
         max-width: 900px;
     }
     .happy-p,
-    .cestovka-popis > p,
-    .delegati-popis > p {
+    .cestovka-popis>p,
+    .delegati-popis>p{
         max-width: 580px;
         margin: 0 auto;
     }
-    .cestovka-popis > p,
-    .delegati-popis > p {
+    .cestovka-popis>p,
+    .delegati-popis>p{
         padding-bottom: 30px;
     }
     .cestovka > p,
-    .delegati > p {
+    .delegati > p{
         margin-bottom: 30px;
     }
-    .happy img {
+    .happy img{
         max-width: 400px;
     }
-    .buttons {
+    .buttons{
         flex-direction: row;
         justify-content: space-around;
         min-width: 435px;
     }
-    .tlacitko-pohoda {
+    .tlacitko-pohoda{
         margin-top: 30px;
     }
-    .sluzby {
+    .sluzby{
         max-width: 90%;
         margin: 0 auto;
         display: flex;
         gap: 20px;
     }
-    .sluzba {
+    .sluzba{
         flex-direction: column;
         max-width: 1000px;
         margin: 0;
