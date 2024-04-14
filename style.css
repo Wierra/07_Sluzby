@@ -120,7 +120,7 @@ a{
 }
 
 /* tablet - 640px a víc */
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px){
     section{
         max-width: 900px;
     }
@@ -162,3 +162,65 @@ a{
         min-height: 180px;
     }
 }
+
+/* PC - 1100px a víc */
+@media screen and (min-width: 1100px){
+    h1::after{
+        margin: 0;
+        margin-top: 10px;
+    }
+    section{
+        max-width: 1040px;
+    }
+    .happy{
+        display: flex;
+    }
+     .happy img{
+        max-width: 425px;
+        order: 2;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        margin-top: 60px;
+    }
+    .buttons{
+        margin-left: 0;
+    }
+    .tlacitko-adrenalin,
+    .tlacitko-pohoda{
+        margin-top: 0;
+    }
+    .cestovka{
+        display: flex;
+        margin-top: 80px;
+        gap: 60px;
+    }
+    .delegati{
+        display: flex;
+        margin-top: 80px;
+        gap: 60px;
+    }
+    .cestovka-popis{
+        order: 2;
+        max-width: 430px;
+    }
+    .happy p,
+    .cestovka-popis p,
+    .cestovka-popis h2{
+        text-align: left;
+    }
+    .delegati-popis{
+        max-width: 430px;
+    }
+    .delegati-popis p,
+    .delegati-popis h2{
+        text-align: left;
+    }
+    .sluzby{
+        max-width: 550px;
+        margin: 0;
+    }
+} 
